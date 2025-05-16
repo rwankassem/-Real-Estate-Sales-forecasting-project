@@ -7,6 +7,7 @@ Team Members:
 -    Rwan Taha (Team Leader)
 -    Asmaa Gamal
 -    Sara Ashraf
+<<<<<<< HEAD
 -    Mohamed Abdelhami
 
 
@@ -81,3 +82,8 @@ streamlit run app.py
 - Integrate API for real-time data
 
 ---
+=======
+-    Mohamed Abdelhamid 
+
+
+>>>>>>> 83a530720ad4bece0dcc491ea5f401a48d09a7b5
