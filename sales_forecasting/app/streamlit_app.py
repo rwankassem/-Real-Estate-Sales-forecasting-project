@@ -185,30 +185,6 @@ if uploaded_file is not None:
     
     st.subheader("Basic Statistics for Filtered Data")
     st.write(filtered_df.describe())
-    
-    
-    
-import pandas as pd
-import joblib
-
-# Load trained model
-model = joblib.load('model.pkl')
-
-st.title("🏡 Real Estate Price Prediction")
-
-uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
-
-if uploaded_file is not None:
-    data = pd.read_csv(uploaded_file)
-    st.write("Preview of uploaded data:")
-    st.dataframe(data)
-
-    if st.button("Predict"):
-        predictions = model.predict(data)
-        data['Predicted Price'] = predictions
-        st.write("Prediction Results:")
-        st.dataframe(data)
-
 
 else:
     st.warning("Please upload a CSV file to proceed.")
