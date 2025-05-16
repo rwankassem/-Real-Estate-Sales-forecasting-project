@@ -78,12 +78,9 @@ streamlit run app.py
 
 ##  Future Improvements
 - Deploy app on Streamlit Cloud
-- Add LightGBM model
 - Integrate API for real-time data
 
 ---
 =======
 
 
-
->>>>>>> 83a530720ad4bece0dcc491ea5f401a48d09a7b5
