@@ -1,15 +1,15 @@
-# -Real-Estate-Sales-forecasting-project
-Project Name: 
-    Sales forecasting and price prediction
+#  -Real-Estate-Sales-forecasting-project
 
-    
-Team Members:
--    Rwan Taha (Team Leader)
--    Asmaa Gamal
--    Sara Ashraf
--    Mohamed Abdelhamid
+##  Project Name: 
+**Sales Forecasting and Price Prediction**
+
+## Team Members:
+- Rwan Taha (Team Leader)
+- Asmaa Gamal
+- Sara Ashraf
+- Mohamed Abdelhamid
+
 ---
-
 
 This project predicts house prices using machine learning models like **XGBoost**, **Random Forest**, and **Linear Regression**, based on real estate data.
 
@@ -67,7 +67,7 @@ streamlit run app.py
 
 ---
 
-##  Model Performance
+## Model Performance
 | Model              | R² Score | MAE        |
 |-------------------|----------|------------|
 | Linear Regression | 0.07     | 399,720    |
@@ -78,9 +78,24 @@ streamlit run app.py
 
 ##  Future Improvements
 - Deploy app on Streamlit Cloud
-- Integrate API for real-time data
+- Integrate real-time property listing API
 
 ---
-=======
 
+##  Visual Examples (to be added)
+- Correlation heatmap
+- Price distribution by region and house type
+- Model comparison bar chart
 
+---
+
+##  Technologies Used
+
+- **Python 3.10** – Core programming language
+- **Pandas / NumPy** – Data manipulation
+- **Matplotlib / Seaborn / Plotly** – Visualization
+- **Scikit-learn** – Machine learning algorithms & preprocessing
+- **XGBoost / Random Forest / Linear Regression** – Modeling
+- **SHAP** – Feature importance & interpretability
+- **Streamlit** – Interactive web application
+- **Git + GitHub** – Version control & collaboration
