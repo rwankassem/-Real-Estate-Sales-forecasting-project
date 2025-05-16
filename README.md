@@ -1,4 +1,4 @@
-#  -Real-Estate-Sales-forecasting-project
+#  Real-Estate-Sales-forecasting-project
 
 ##  Project Name: 
 **Sales Forecasting and Price Prediction**
