@@ -10,18 +10,3 @@ Team Members:
 -    Mohamed Abdelhamid 
 
 
-sales_forecasting/
-│
-├── app.py # Streamlit dashboard
-├── src/ # Scripts
-│ ├── data_loader.py
-│ ├── data_cleaning.py
-│ ├── feature_engineering.py
-│ ├── preprocessing.py
-│ ├── modeling.py
-│ └── evaluation.py
-├── data/
-│ ├── DMV_Homes.csv # Raw dataset
-│ └── cleaned_dataset.csv # Cleaned dataset after preprocessing
-├── requirements.txt
-└── README.md
