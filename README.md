@@ -8,6 +8,7 @@ Team Members:
 -    Asmaa Gamal
 -    Sara Ashraf
 -    Mohamed Abdelhamid
+---
 
 
 This project predicts house prices using machine learning models like **XGBoost**, **Random Forest**, and **Linear Regression**, based on real estate data.
