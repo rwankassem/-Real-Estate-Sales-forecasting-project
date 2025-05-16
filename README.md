@@ -82,7 +82,7 @@ streamlit run app.py
 
 ---
 
-##  Visual Examples (to be added)
+##  Visual Examples 
 - Correlation heatmap
 - Price distribution by region and house type
 - Model comparison bar chart
