@@ -109,6 +109,7 @@ streamlit run app/streamlit_app.py
 
 ### Streamlit App Interface  
 - Filter data based on user selections and visualize results in real-time.
+- [Streamlit app demo](https://etvwkpusraqg259hpjdc3k.streamlit.app/)
 ---
 
 ### Deployment Architecture  
