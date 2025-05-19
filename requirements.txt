@@ -1,6 +1,8 @@
 attr==0.3.2
 ConfigParser==7.2.0
 cryptography==44.0.3
+Cython
+jnius==1.1.0
 docutils==0.21.2
 filelock==3.18.0
 HTMLParser==0.0.2
@@ -10,8 +12,9 @@ jnius==1.1.0
 keyring==25.6.0
 pandas==2.2.3
 plotly==6.0.1
-protobuf==6.31.0
 pyOpenSSL==25.0.0
+protobuf>=3.20,<6
+pip install --upgrade pip
 redis==6.1.0
 scikit_learn==1.6.1
 Sphinx==8.2.3
