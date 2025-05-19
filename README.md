@@ -92,28 +92,28 @@ streamlit run app/streamlit_app.py
 ##  Visual Examples 
 
 ### Categorical Feature Association (Cramér's V)
-Shows correlation between categorical features.
----
+**Shows correlation between categorical features.
+**=---
 
 ###  PCA Projection
-Dimensionality reduction to visualize house clusters based on price.
----
+**Dimensionality reduction to visualize house clusters based on price.
+**---
 
 ###  ANOVA Feature Importance
-Which categorical features have the most impact on price.
----
+**Which categorical features have the most impact on price.
+**---
 
 ###  Model Comparison
-Evaluation of models using R², MAE, MSE.
----
+**Evaluation of models using R², MAE, MSE.
+**---
 
 ### Streamlit App Interface
-Upload data and get real-time price predictions.
----
+**Upload data and get real-time price predictions.
+**---
 
 ###  Deployment Architecture
-How the ML model was integrated into Django backend and served through Streamlit.
----
+**How the ML model was integrated into Django backend and served through Streamlit.
+**---
 
 ##  Technologies Used
 
