@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 3. **Run the Streamlit app:**
 ```bash
-streamlit run app.py
+streamlit run app/streamlit_app.py
 ```
 
 ---
@@ -72,7 +72,7 @@ streamlit run app.py
 |-------------------|----------|------------|
 | Linear Regression | 0.07     | 399,720    |
 | Random Forest     | 0.60     | 204,674    |
-| **XGBoost**       | **0.79** | **225,574** |
+| **XGBoost**       | **0.803** | **225,574** |
 
 ---
 
@@ -83,10 +83,29 @@ streamlit run app.py
 ---
 
 ##  Visual Examples 
-- Correlation heatmap
-- Price distribution by region and house type
-- Model comparison bar chart
 
+### Categorical Feature Association (Cramér's V)
+*Shows correlation between categorical features.*
+---
+
+###  PCA Projection
+*Dimensionality reduction to visualize house clusters based on price.*
+---
+
+###  ANOVA Feature Importance
+*Which categorical features have the most impact on price.*
+---
+
+###  Model Comparison
+*Evaluation of models using R², MAE, MSE.*
+---
+
+### 🌐Streamlit App Interface
+*Upload data and get real-time price predictions.*
+---
+
+###  Deployment Architecture
+*How the ML model was integrated into Django backend and served through Streamlit.*
 ---
 
 ##  Technologies Used
