@@ -67,7 +67,7 @@ git clone https://github.com/rwankassem/-Real-Estate-Sales-forecasting-project.g
 pip install -r requirements.txt
 ```
 
-3. **Run the Streamlit app:**
+3. **Run the Streamlit app:
 ```bash
 streamlit run app/streamlit_app.py
 ```
@@ -89,31 +89,31 @@ streamlit run app/streamlit_app.py
 
 ---
 
-##  Visual Examples 
+## Visual Examples
 
-### Categorical Feature Association (Cramér's V)
-**Shows correlation between categorical features.
-**=---
+### Categorical Feature Association (Cramér's V)  
+Shows correlation between categorical features.  
+---
 
-###  PCA Projection
-**Dimensionality reduction to visualize house clusters based on price.
-**---
+### PCA Projection  
+Dimensionality reduction to visualize house clusters based on price.  
+---
 
-###  ANOVA Feature Importance
-**Which categorical features have the most impact on price.
-**---
+### ANOVA Feature Importance  
+Which categorical features have the most impact on price.  
+---
 
-###  Model Comparison
-**Evaluation of models using R², MAE, MSE.
-**---
+### Model Comparison  
+Evaluation of models using R², MAE, MSE.  
+---
 
-### Streamlit App Interface
-**Upload data and get real-time price predictions.
-**---
+### Streamlit App Interface  
+Upload data and get real-time price predictions.  
+---
 
-###  Deployment Architecture
-**How the ML model was integrated into Django backend and served through Streamlit.
-**---
+### Deployment Architecture  
+How the ML model was integrated into Django backend and served through Streamlit.  
+---
 
 ##  Technologies Used
 
