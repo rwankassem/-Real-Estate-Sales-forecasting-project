@@ -15,7 +15,7 @@ def load_data(path):
 
 df = load_data(DATA_PATH)
 
-st.success(f"Loaded dataset with {len(df)} records.")
+st.success(f"Loaded dataset.")
 
 # --- Visualizations and Statistics for entire dataset ---
 st.subheader("Visualizations and Statistics for Entire Dataset")
