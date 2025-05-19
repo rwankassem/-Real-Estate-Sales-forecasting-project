@@ -39,11 +39,18 @@ sales_forecasting/
 │   ├── preprocessing.py
 │   ├── modeling.py
 │   └── evaluation.py
-├── data/
-│   ├── DMV_Homes.csv           # Raw dataset
-│   └── cleaned_dataset.csv     # Cleaned dataset after preprocessing
+├── data/                   # Datasets
+│   ├── DMV_Homes.csv       # Raw dataset
+│   └── cleaned_dataset.csv # Cleaned dataset
+├── notebooks/              # Notebooks and scripts
+│   └── sales_forecasting.py
+├── deployment/             # Deployment files
+│   └── Deployment Django.zip
+├── presentation/           # Presentation files
+│   └── Presentation.pptx
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
