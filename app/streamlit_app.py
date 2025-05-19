@@ -4,16 +4,17 @@ import plotly.express as px
 
 st.title("Visualizing Real Estate Data")
 
-DATA_PATH = 'data/cleaned_dataset.csv'  
+
+DATA_URL = 'https://raw.githubusercontent.com/rwankassem/-Real-Estate-Sales-forecasting-project/main/data/cleaned_dataset.csv'
 
 @st.cache_data
-def load_data(path):
-    df = pd.read_csv(path)
+def load_data(path_or_url):
+    df = pd.read_csv(path_or_url)
     if 'City freq' in df.columns:
         df = df.drop(columns=['City freq'])
     return df
 
-df = load_data(DATA_PATH)
+df = load_data(DATA_URL)
 
 st.success(f"Loaded dataset.")
 
